@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<set>
 using namespace std;
 
 int main(){
@@ -26,4 +27,9 @@ int main(){
             std::cout<<x<<" ";
         }
     }
+
+pair<int,int> p = make_pair(10,20); // tạo một biến p có kiểu dự liệu pair với phần tử đầu tiên là 10, phần tử thứ 2 là 20
+pair<int,int> p = {10,20};  // tạo một biến p có kiểu dự liệu pair với phần tử đầu tiên là 10, phần tử thứ 2 là 20
+std::cout<<p.first<<" "<<p.second<<" "; // in ra phần tử đầu tiên và phần tử thứ 2
+
 }
